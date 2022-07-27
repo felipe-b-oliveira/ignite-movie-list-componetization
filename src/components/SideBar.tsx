@@ -4,6 +4,11 @@ import { api } from '../services/api';
 import { GenreResponseProps } from '../types/interfaces';
 interface SideBarProps {
     selectedGenreId: number;
+    /**
+     * Tipagem de Função:
+     * A função handleClick recebe um parâmetro do tipo [NUMBER] e não retorna 
+     * nada [VOID]
+     */
     handleClick: (id: number) => void;
 }
 
